@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { LoginComponent } from './components/login/login.component';
 import { RegisterComponent } from './components/register/register.component';
 import { FormLoginComponent } from './shared/form-login/form-login.component';
+import { SharedComponent } from './shared/shared.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
     RegisterComponent,
-    FormLoginComponent
+    FormLoginComponent,
+    SharedComponent
   ],
   imports: [
     BrowserModule,
